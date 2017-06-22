@@ -1,0 +1,9 @@
+Testing a frontend dev setup.
+
+npm init
+
+npm install --save-dev webpack webpack-dev-server browser-sync
+
+npm install --save-dev babel-loader babel-core babel-preset-env
+
+browser-sync start --server --files "*.html, css/*.css, js/*.js" --port 80
